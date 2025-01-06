@@ -47,7 +47,7 @@ Este proyecto aplica técnicas de ciencia de datos para analizar y visualizar la
 - Insights accionables para comprender los cambios en la industria musical.
 
 ## Autor
-**Joanna Alexandra Carrión Pérez**: Bachiller de Ingeniería Electrónica | Apasionada por la Ciencia de Datos y la Inteligencia Artificial.
+**Joanna Alexandra Carrión Pérez**: Bachiller de Ingeniería Electrónica. Apasionada por la Ciencia de Datos y la Inteligencia Artificial. [LinkedIn](https://www.linkedin.com/in/joanna-carrion-perez/)
 
 ## Contacto
 Para cualquier duda o sugerencia, contáctame a través de **joannacarrion14@gmail.com**.
