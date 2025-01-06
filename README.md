@@ -29,7 +29,7 @@ Este proyecto aplica técnicas de ciencia de datos para analizar y visualizar la
 ## Cómo Ejecutar el Proyecto
 1. Clona este repositorio en tu máquina local:
    ```bash
-   git clone https://github.com/tu-usuario/billboard-analysis.git
+   gh repo clone Joanna20Carrion/Explorando-Tendencias-Musicales-con-Ciencia-de-Datos-Billboard-Hot-100-2000-2023-
    ```
 2. Asegúrate de tener instaladas las siguientes dependencias:
    - Python 3.x
@@ -46,12 +46,11 @@ Este proyecto aplica técnicas de ciencia de datos para analizar y visualizar la
 - Visualizaciones detalladas que capturan la evolución del Billboard Hot 100.
 - Insights accionables para comprender los cambios en la industria musical.
 
+## Autor
+**Joanna Alexandra Carrión Pérez**: Bachiller de Ingeniería Electrónica | Apasionada por la Ciencia de Datos y la Inteligencia Artificial.
+
 ## Contacto
 Para cualquier duda o sugerencia, contáctame a través de **joannacarrion14@gmail.com**.
-
-## Autor
-**Joanna Alexandra Carrión Pérez**
-Estudiante de Ingeniería Electrónica | Apasionada por la Ciencia de Datos y la Inteligencia Artificial.
 
 ## Contribuciones
 ¡Contribuciones son bienvenidas! Si tienes ideas o mejoras, no dudes en hacer un fork del repositorio y enviar un pull request.
