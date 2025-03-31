@@ -1,5 +1,12 @@
 # Explorando Tendencias Musicales con Ciencia de Datos: Billboard Hot 100 (2000-2023)
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-red)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blueviolet)
+![Seaborn](https://img.shields.io/badge/Seaborn-Data%20Visualization-lightblue)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Graphs-green)
+
 Este proyecto aplica técnicas de ciencia de datos para analizar y visualizar las tendencias musicales del **Billboard Hot 100** entre los años 2000 y 2023. Utilizando Python y diversas herramientas de análisis, se busca extraer insights significativos sobre la evolución de la música y sus características a lo largo del tiempo.
 
 ## Dataset Utilizado
@@ -32,12 +39,12 @@ Este proyecto aplica técnicas de ciencia de datos para analizar y visualizar la
    gh repo clone Joanna20Carrion/Explorando-Tendencias-Musicales-con-Ciencia-de-Datos-Billboard-Hot-100-2000-2023-
    ```
 2. Asegúrate de tener instaladas las siguientes dependencias:
-   - Python 3.x
-   - Pandas
-   - NumPy
-   - Matplotlib
-   - Seaborn
-   - Plotly
+   - ![Python](https://img.shields.io/badge/Python-3.x-blue)
+   - ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
+   - ![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-blue)
+   - ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green)
+   - ![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Graphics-red)
+   - ![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Plots-purple)
 3. Descarga el dataset desde Kaggle y colócalo en la carpeta raíz del proyecto.
 4. Abre el notebook en Google Colab o en tu entorno local favorito y sigue las instrucciones.
 
