@@ -1,4 +1,4 @@
-# Explorando Tendencias Musicales con Ciencia de Datos: Billboard Hot 100 (2000-2023)
+# **Explorando Tendencias Musicales con Ciencia de Datos: Billboard Hot 100 (2000–2023)**
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
@@ -6,58 +6,114 @@
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blueviolet)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Data%20Visualization-lightblue)
 ![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Graphs-green)
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
 
-Este proyecto aplica técnicas de ciencia de datos para analizar y visualizar las tendencias musicales del **Billboard Hot 100** entre los años 2000 y 2023. Utilizando Python y diversas herramientas de análisis, se busca extraer insights significativos sobre la evolución de la música y sus características a lo largo del tiempo.
+Este repositorio contiene un proyecto de **Ciencia de Datos** enfocado en analizar y visualizar tendencias musicales del **Billboard Hot 100** desde el año 2000 hasta 2023. Utilizando herramientas como Python, Pandas, Seaborn y Plotly, se extraen insights clave sobre la evolución de la música en las últimas décadas.
 
-## Dataset Utilizado
-- **Nombre del dataset:** [Billboard Hot-100[2000-2023] data with features](https://www.kaggle.com/datasets/suparnabiswas/billboard-hot-1002000-2023-data-with-features)
-- **Fuente:** Kaggle
-- **Descripción:** Contiene datos sobre las canciones que han figurado en el Billboard Hot 100 durante el período indicado, con características adicionales como popularidad, duración, y métricas musicales (tiempo, key, energy, etc.).
+---
 
-## Objetivos del Proyecto
-1. **Preprocesar los datos** para eliminar valores nulos, duplicados y variables redundantes.
-2. **Normalizar las variables pertinentes** para asegurar un análisis consistente.
-3. Generar al menos **5 visualizaciones complejas** que expliquen las tendencias musicales.
-4. Proveer **interpretaciones detalladas** de cada visualización.
+## 📁 Contenido del Repositorio
 
-## Requisitos de Preprocesamiento
-1. Identificación y tratamiento de valores nulos.
-2. Eliminación de valores duplicados y variables redundantes.
-3. Normalización de datos clave.
+- **`Billboard_Hot100_Analysis.ipynb`**  
+  Notebook principal que contiene todo el flujo de trabajo:
+  - Carga y preprocesamiento del dataset.
+  - Análisis exploratorio y visualizaciones.
+  - Interpretaciones detalladas de los resultados.
 
-## Visualizaciones
-- **Cantidad:** Al menos 5 visualizaciones significativas.
-- **Herramientas utilizadas:** Matplotlib, Seaborn, Plotly.
-- **Interpretación:** Cada gráfica incluye una descripción y análisis detallado de los hallazgos.
+- **`billboard_2000_2023.csv`**  
+  Archivo de datos descargado desde Kaggle (debe colocarse en la raíz del proyecto).
 
-## Estructura del Proyecto
-- **Notebook en Google Colab:** Contiene el análisis completo.
+- **`README.md`**  
+  Este archivo, que describe el propósito, estructura y uso del proyecto.
 
-## Cómo Ejecutar el Proyecto
-1. Clona este repositorio en tu máquina local:
+---
+
+## 📊 Dataset Utilizado
+
+- **Nombre:** [Billboard Hot-100 [2000–2023] data with features](https://www.kaggle.com/datasets/suparnabiswas/billboard-hot-1002000-2023-data-with-features)  
+- **Fuente:** Kaggle  
+- **Descripción:** Contiene información de las canciones en el Billboard Hot 100 con métricas como duración, energía, tempo, key, popularidad, entre otros.
+
+---
+
+## 🎯 Objetivos
+
+1. Preprocesar y limpiar el dataset.
+2. Normalizar variables clave para análisis comparativo.
+3. Generar al menos 5 visualizaciones complejas.
+4. Analizar e interpretar las tendencias musicales más relevantes.
+
+---
+
+## 🧹 Requisitos de Preprocesamiento
+
+- Detección y eliminación de valores nulos.
+- Remoción de duplicados y variables redundantes.
+- Normalización de variables numéricas.
+
+---
+
+## 📈 Visualizaciones
+
+- **Herramientas utilizadas:**  
+  ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blueviolet)
+  ![Seaborn](https://img.shields.io/badge/Seaborn-Data%20Visualization-lightblue)
+  ![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Graphs-green)
+- **Cantidad:** Mínimo 5 visualizaciones detalladas.
+- **Interpretaciones:** Cada gráfico incluye un análisis explicativo.
+
+---
+
+## ⚙️ Requisitos
+
+Se recomienda el uso de un entorno virtual (con `venv` o `conda`) y la instalación de las siguientes dependencias:
+
+```bash
+pip install pandas numpy matplotlib seaborn plotly
+```
+
+---
+
+## 🚀 Cómo Ejecutar el Proyecto
+
+1. Clona el repositorio:
    ```bash
    gh repo clone Joanna20Carrion/Explorando-Tendencias-Musicales-con-Ciencia-de-Datos-Billboard-Hot-100-2000-2023-
    ```
-2. Asegúrate de tener instaladas las siguientes dependencias:
-   - ![Python](https://img.shields.io/badge/Python-3.x-blue)
-   - ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
-   - ![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-blue)
-   - ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green)
-   - ![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Graphics-red)
-   - ![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Plots-purple)
-3. Descarga el dataset desde Kaggle y colócalo en la carpeta raíz del proyecto.
-4. Abre el notebook en Google Colab o en tu entorno local favorito y sigue las instrucciones.
+2. Descarga el dataset desde Kaggle y colócalo en la raíz del proyecto.
+3. Abre el notebook en Google Colab o Jupyter:
+   ```bash
+   jupyter notebook Billboard_Hot100_Analysis.ipynb
+   ```
+4. Ejecuta las celdas secuencialmente.
 
-## Resultados Esperados
-- Tendencias clave en los géneros musicales, popularidad y otras características musicales a lo largo de los años.
-- Visualizaciones detalladas que capturan la evolución del Billboard Hot 100.
-- Insights accionables para comprender los cambios en la industria musical.
+---
 
-## Autor
-**Joanna Alexandra Carrión Pérez**: Bachiller de Ingeniería Electrónica. Apasionada por la Ciencia de Datos y la Inteligencia Artificial. [LinkedIn](https://www.linkedin.com/in/joanna-carrion-perez/)
+## ✅ Resultados Esperados
 
-## Contacto
-Para cualquier duda o sugerencia, contáctame a través de **joannacarrion14@gmail.com**.
+- Visualizaciones que revelan patrones y evolución en géneros, popularidad y características musicales.
+- Insights relevantes sobre cómo ha cambiado la música en las últimas dos décadas.
 
-## Contribuciones
-¡Contribuciones son bienvenidas! Si tienes ideas o mejoras, no dudes en hacer un fork del repositorio y enviar un pull request.
+---
+
+## 🙋‍♀️ Autor
+
+**Joanna Alexandra Carrión Pérez**  
+🎓 Bachiller en Ingeniería Electrónica  
+💡 Apasionada por la Ciencia de Datos y la Inteligencia Artificial  
+🔗 ![LinkedIn](https://img.shields.io/badge/LinkedIn-Joanna%20Carrión%20Pérez-blue?style=flat&logo=linkedin) [LinkedIn](https://www.linkedin.com/in/joanna-carrion-perez/)
+
+---
+
+## ✉️ Contacto
+
+¿Preguntas o sugerencias? Escríbeme a **joannacarrion14@gmail.com**
+
+---
+
+## 🤝 Contribuciones
+
+¡Contribuciones son bienvenidas!  
+1. Haz un fork del repositorio.  
+2. Crea una nueva rama para tu mejora.  
+3. Envía un pull request explicando tus cambios.
